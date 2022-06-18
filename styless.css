@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+main {
+    background-color: rgb(2, 25, 44);
+    width: 80vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    /* height: 100vh; */
+    margin: auto;
+    padding: 60px 100px;
+    font-size: 16px;
+}
+
+main>div {
+    width: 300px;
+}
+h2{ color: white;
+}
+
+.container1 {
+    background-color: transparent;
+    padding: 10px;
+    height:auto;
+    width: 30%;    
+}
+.container2{
+    width:25%;
+    display: flexbox;
+}
+.container2__item1{
+    background-color: hsl(249, 10%, 26%);
+    border-radius:  5px;
+    height: 30px;
+    font-size:xx-small;
+    text-align:center;
+    align-items: center;
+}
+
+.form {
+    padding: 30px;
+    width: 80%;
+    margin:10px;
+    /* appearance: none; */
+        --tw-bg-opacity: 1;
+        background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+        --tw-border-opacity: 1;
+        border-color: rgba(221, 221, 221, var(--tw-border-opacity));
+        border-radius: 0.25rem;
+        /* border-width: 1px; */
+        /* padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        --tw-text-opacity: 1;
+        color: rgba(85, 85, 85, var(--tw-text-opacity)); */ */
+        /* width: 100%; */
+    }
+
+#fname{
+    margin: 10px;
+}    
+#lname{
+    margin: 10px;
+}    
+#email{
+    margin: 10px;
+}    
+#pswd{
+    margin: 10px;
+}    
+.btn{
+    margin: 10px;
+}    
+
+.container2__item2 {
+    background-color: white;
+    border-radius: 5px;
+    height: auto;
+    text-align: center;
+    /* align-content:space-between; */
+    margin-top: 10px;
+}
+
+p {
+    color: white;
+    font-weight:lighter;
+    font-size: small;
+}
+
+td {height: 30px;
+}
+
+.btn{
+    background-color: rgb(64, 161, 93);
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-size:xx-small;
+    padding: 5px;
+    width: 180px;
+}
+
+.last-p {
+    font-size: 6px;
+    color: black;
+}
+
+
+
+
+
+@media (max-width:375px){
+    main{
+        background-color: red;
+        display: flex;
+            flex-direction: column;
+        width: 100vw;
+        height:100vh;
+    }
+    }
+
+@media (min-width:1440px)
+
+
+
+
+
