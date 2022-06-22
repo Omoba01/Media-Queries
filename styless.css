@@ -1,11 +1,19 @@
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    height: 100vh;
+    
 }
 
 main {
-    background-color: rgb(2, 25, 44);
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: rgb(247 132 117);
     width: 80vw;
     margin: 0 auto;
     align-items: center;
@@ -25,7 +33,7 @@ h2{ color: white;
 }
 
 .container1 {
-    background-color: transparent;
+    /* background-color: transparent; */
     padding: 10px;
     height:auto;
     width: 30%;    
@@ -35,47 +43,40 @@ h2{ color: white;
     display: flexbox;
 }
 .container2__item1{
-    background-color: hsl(249, 10%, 26%);
+    background-color: hsl(249, 41%, 29%);
     border-radius:  5px;
     height: 30px;
+    width: 100%;
     font-size:xx-small;
     text-align:center;
     align-items: center;
 }
 
 .form {
-    padding: 30px;
-    width: 80%;
+    padding: 15px;
+    width: 75%;
     margin:10px;
-    /* appearance: none; */
-        --tw-bg-opacity: 1;
-        background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-        --tw-border-opacity: 1;
-        border-color: rgba(221, 221, 221, var(--tw-border-opacity));
-        border-radius: 0.25rem;
-        /* border-width: 1px; */
-        /* padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        --tw-text-opacity: 1;
-        color: rgba(85, 85, 85, var(--tw-text-opacity)); */ */
-        /* width: 100%; */
     }
 
-#fname{
+
+#Jonathan{
+    width: 100%;
     margin: 10px;
 }    
 #lname{
+    width: 100%;
     margin: 10px;
 }    
 #email{
+    width: 100%;
     margin: 10px;
 }    
 #pswd{
+    width: 100%;
     margin: 10px;
 }    
 .btn{
+    width: 100%;
     margin: 10px;
 }    
 
@@ -84,7 +85,6 @@ h2{ color: white;
     border-radius: 5px;
     height: auto;
     text-align: center;
-    /* align-content:space-between; */
     margin-top: 10px;
 }
 
@@ -104,12 +104,15 @@ td {height: 30px;
     color: white;
     font-size:xx-small;
     padding: 5px;
-    width: 180px;
 }
 
 .last-p {
     font-size: 6px;
     color: black;
+}
+
+.terms{
+    color: rgb(218, 45, 45);
 }
 
 
@@ -118,7 +121,8 @@ td {height: 30px;
 
 @media (max-width:375px){
     main{
-        background-color: red;
+        background-color: rgb(247 132 117);
+        background-image: url(images/bg-intro-mobile.png);
         display: flex;
             flex-direction: column;
         width: 100vw;
@@ -127,7 +131,6 @@ td {height: 30px;
     }
 
 @media (min-width:1440px)
-
 
 
 
